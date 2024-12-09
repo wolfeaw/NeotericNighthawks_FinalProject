@@ -78,6 +78,7 @@
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ishizuko.cs" />
     <Compile Include="James2c4.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
