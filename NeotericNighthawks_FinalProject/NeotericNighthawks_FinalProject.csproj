@@ -81,6 +81,7 @@
     <Compile Include="James2c4.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="patel3jc.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="wolfeaw.cs" />
   </ItemGroup>
