@@ -1,4 +1,14 @@
-﻿
+﻿<!--
+# Name: Neoteric Nighthawks
+# email:
+# Assignment Title: Assignment Final Project
+# Due Date: 12/10/24
+# Course: IS 3050
+# Semester/Year: Fall 2024
+# Brief Description: This project is our final project which solves leetcode problems
+# Citations: https://chatgpt.com/
+# Anything else that's relevant: n/a
+-->
 <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="NeotericNighthawks_FinalProject.index" %>
 
 <!DOCTYPE html>
