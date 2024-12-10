@@ -23,11 +23,11 @@ namespace NeotericNighthawks_FinalProject
                 {
                     "Max Satisfaction",
                     (
-                        "Calculate the maximum satisfaction from a list of satisfaction levels.",
+                        "Calculate the maximum satisfaction for a chef's dish from a list of satisfaction levels.",
                         "Input: [-1, -8, 0, 5, -9]",
                         new Func<string>(() =>
                         {
-                            var solver = new wolfeaw(); // Replace with actual implementation
+                            var solver = new wolfeaw();
                             int result = solver.MaxSatisfaction(new[] { -1, -8, 0, 5, -9 });
                             return $"Output: {result}";
                         })
@@ -54,7 +54,7 @@ namespace NeotericNighthawks_FinalProject
                         "Input: 'hello world a is b'",
                         new Func<string>(() =>
                         {
-                            var solver = new patel3jc(); // Replace with actual implementation
+                            var solver = new patel3jc();
                             string result = solver.FirstLetterCapitalization("hello world a is b");
                             return $"Output: {result}";
                         })
@@ -84,7 +84,6 @@ namespace NeotericNighthawks_FinalProject
 
         protected void ddlProblems_SelectedIndexChanged(object sender, EventArgs e)
         {
-            // Show or hide the integer input row based on the selected problem
             if (ddlProblems.SelectedItem != null)
             {
                 rowIntegerInput.Visible = ddlProblems.SelectedItem.Text == "Integer to Word Converter";
@@ -100,7 +99,7 @@ namespace NeotericNighthawks_FinalProject
                 try
                 {
                     long num = long.Parse(txtInt.Text);
-                    litSolution.Text = LocalNumberToWords(num); // Use local version of NumberToWords
+                    litSolution.Text = LocalNumberToWords(num); 
                 }
                 catch (FormatException)
                 {
